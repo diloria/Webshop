@@ -1,0 +1,83 @@
+﻿body {
+	background: url('./escheresque_ste.png') repeat scroll 0% 0% transparent;
+	font-size: 12px;
+	color: #FFF;
+}
+h1 {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    color: rgba(255, 255, 255, 1);
+}
+.jumbotron{
+	background:url(./greyzz.png) repeat scroll 0% 0% transparent;
+	margin-top:-22px;
+	border: 0px;
+	box-shadow: 0px 5px 5px #111;
+}
+.np-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #E5E5E5;
+		display: block;
+		box-sizing: border-box;
+		background-color: #FFF;
+}
+.np-socials {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.np-footer-links {
+    margin-top: 20px;
+    padding-left: 0px;
+    color: #999;
+		box-sizing: border-box;
+}
+ul, ol {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.np-footer-links li {
+    display: inline;
+    padding: 0px 2px;
+}
+.navbar-right{
+	margin-left: 5px;
+}
+.navbar-inverse {
+    background:url(./greyzz.png) repeat scroll 0% 0% transparent;
+		border-top: 4px solid rgba(111, 167, 189, 1);
+		border-bottom: 0px;
+		border-radius: 0px;
+}
+.rightjumbo{
+	float:right;
+}
+IMG.np-logo{
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h3.np-app-text{
+	text-align: center;
+	color: #333;
+}
+h1.np-text{
+	color: #333;
+}
+p.np-text{
+	color: #333;
+}
+li.active{
+	background-color: rgba(111, 167, 189, 1);
+	color: #FFF;
+}
+.np-load-more{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
