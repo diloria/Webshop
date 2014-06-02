@@ -44,9 +44,9 @@
     </div>
 	  <div class="collapse navbar-collapse" id="navbar1">
 			 <ul class="nav navbar-nav">
-			   <li class="active"><a href="#">Evenemangslistan</a></li>
+			   <li class="active"><a href="./index.html">Evenemangslistan</a></li>
 			   <li><a href="#">Städer</a></li>
-				 <li><a href="#">Nattklubbar</a></li>
+				 <li><a href="./clubs.html">Nattklubbar</a></li>
 				 <li><a href="#">Reklam</a></li>
 		   </ul>
 			<form class="navbar-form navbar-left" role="search">
@@ -113,7 +113,7 @@
 			    <div class="thumbnail">
 			      <img data-src="holder.js/223x200/sky" alt="...">
 			      <div class="caption">
-							<h4>22 juni <span class="label label-success">Nyhet</span><span class="glyphicon glyphicon-glass" style="float:right;"></span></h4>
+							<h4>22 juni <span class="label label-success">Nyhet</span><span class="glyphicon glyphicon-list-alt" style="float:right;"></span></h4>
 			        <h3>Hours</h3>
 
 			        <table class="table table-condensed">
@@ -353,9 +353,21 @@
 							<option>Allingsås</option>
 						</select>
 						</div>
+					<label for="valjstad" class="col-sm-2 control-label">Lokal:</label>
+            <div class="col-sm-10">
+						<select id="valjstad" class="form-control">
+						  <option>Alla lokaler</option>
+						  <option>Yaki-da</option>
+						  <option>Valand</option>
+						  <option>Port du Soleil</option>
+						  <option>Parken</option>
+							<option>Jaguar</option>
+						</select>
+						</div>
 					<label for="manad" class="col-sm-2 control-label">Månad:</label>
             <div class="col-sm-10">
 						<select id="manad" class="form-control">
+							<option>Alla</option>
 						  <option>Juni</option>
 						  <option>Juli</option>
 						  <option>Augusti</option>
@@ -368,6 +380,7 @@
 					<label for="genre" class="col-sm-2 control-label">Genre:</label>
             <div class="col-sm-10">
 						<select id="genre" class="form-control">
+							<option>Alla</option>
 						  <option>Rock</option>
 						  <option>Pop</option>
 						  <option>House</option>
@@ -378,15 +391,20 @@
 						</select>
 						</div>
 				</form>
+				<div class="container">
+				<p><span class="glyphicon glyphicon-glass"></span> = Nattklubb</p>
+				<p style="margin-left:10px;"><span class="glyphicon glyphicon-music"></span> = Livespelning</p>
+				<p style="margin-left:10px;"><span class="glyphicon glyphicon-list-alt"></span> = Gästlista</p>
+			</div>
 		</div>
 		<div class="col-lg-4">
 			<div class="page-header">
 				<h1>Toplistan <small>evenemang</small></h1>
 			</div>
-    	<img data-src="holder.js/350x100/lava" alt="" />
-			<img data-src="holder.js/350x100/industrial" alt="" />
-			<img data-src="holder.js/350x100/sky" alt="" />
-			<img data-src="holder.js/350x100" alt="" />
+    	<img data-src="holder.js/350x80/lava" alt="" />
+			<img data-src="holder.js/350x80/industrial" alt="" />
+			<img data-src="holder.js/350x80/sky" alt="" />
+			<img data-src="holder.js/350x80" alt="" />
 		</div>
 		<div class="col-lg-4">
 			<div class="page-header">

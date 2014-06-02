@@ -53,6 +53,20 @@ ul, ol {
 		border-bottom: 0px;
 		border-radius: 0px;
 }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #EBEBEB;
+    background-color: rgba(111, 167, 189, 1);
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #EBEBEB;
+    background-color: rgba(111, 167, 189, 1);
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: rgba(107, 89, 89, 1);
+}
+.navbar-inverse .navbar-brand {
+    color: rgba(111, 167, 189, 1);
+}
 .rightjumbo{
 	float:right;
 }
@@ -80,4 +94,14 @@ li.active{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+.fieldcontainer{
+	background-color: rgba(255, 255, 255, 1);
+	width: 100%;
+	border-radius: 4px;
+	padding: 25px;
+}
+ul.np-club-list{
+	float:left;
+	list-style-type: none;
 }
